@@ -1,18 +1,14 @@
-import React,{useState,MouseEventHandler,useEffect} from 'react'
+import React from 'react'
 import InputTask from '@/components/Tasks/InputTask'
-import Tabs from '@/components/Tasks/Tabs/Tabs'
-import Layout from '@/components/Layout/Layout'
+import Index from '..'
 
 
 const TaskList = () => {
-  
   return (
     <>
-    <Layout>
-      <Tabs/>
-    </Layout>
+    <Index/>
     <InputTask/>
-  </>
+    </>
   )
 }
 

@@ -3,7 +3,7 @@ import Layout from '@/components/Layout/Layout'
 import Tabs from '@/components/Tasks/Tabs/Tabs'
 
 
-const index = () => {
+const Index = () => {
   return (
     <Layout>
       <Tabs/>
@@ -11,4 +11,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
